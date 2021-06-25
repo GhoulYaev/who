@@ -32,9 +32,9 @@
         site.addEventListener('click', ()=>{
             let tag = document.createElement('span');
             tag.className = 'text';
-            tag.innerHTML = 'вайткити'
-            tag.style.marginLeft = `${event.pageX}`+'px';
-            tag.style.marginTop = `${event.pageY}`+'px';
+            tag.innerHTML = 'чурка'
+            tag.style.marginLeft = event.pageX+'px';
+            tag.style.marginTop = event.pageY+'px';
             document.body.prepend(tag)
         });
     </script>
